@@ -6,7 +6,6 @@ RUN apt-get update \
     curl dnsutils netcat-openbsd jq nmap net-tools \
     && rm -rf /var/lib/apt/lists/*
 
-LABEL org.label-schema.docker.dockerfile="/Dockerfile" \
-      org.label-schema.vcs-type="Git" \
-      org.label-schema.vcs-url="https://github.com/amouat/network-utils-container"
+LABEL org.label-schema.vcs-type="Git" \
+      org.label-schema.vcs-url="https://github.com/soopsio/docker/tree/master/net-tools"
      
